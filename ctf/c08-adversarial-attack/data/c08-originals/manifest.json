@@ -1,0 +1,833 @@
+{
+  "imsize": 224,
+  "resample": "BILINEAR",
+  "input_range": "[0,1]",
+  "targeted": false,
+  "normalize_outside_model": false,
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "onnx_sha256": "f82cd098cce65a6d36405d97009c39252eae5ea9fcc61c4d85e543ce6e859dbe",
+  "correct_list": "correct_imagenet1.json",
+  "correct_list_accuracy": 0.6786,
+  "seed": 20261028,
+  "count": 100,
+  "total_bytes": 8247991,
+  "clean_accuracy_probe": {
+    "probe_images": 250,
+    "normalize_outside": 0.004,
+    "normalize_inside": 0.692,
+    "only_outside_correct": 0,
+    "only_inside_correct": 172,
+    "implied_from_pick": 0.625
+  },
+  "images": [
+    {
+      "file": "0785_ILSVRC2012_val_00001792.png",
+      "class_index": 785,
+      "class_name": "seat belt, seatbelt",
+      "source": "785/ILSVRC2012_val_00001792.JPEG",
+      "bytes": 93312,
+      "sha256": "b667524a909bca720bed373f5ed59412524f018f5da664e03d459acbc0ac7612"
+    },
+    {
+      "file": "0894_ILSVRC2012_val_00000482.png",
+      "class_index": 894,
+      "class_name": "wardrobe, closet, press",
+      "source": "894/ILSVRC2012_val_00000482.JPEG",
+      "bytes": 59414,
+      "sha256": "aad372e481f89aa1b0488002a566652e81cf1332275b13b23de9aa45c25eeb4d"
+    },
+    {
+      "file": "0549_ILSVRC2012_val_00003352.png",
+      "class_index": 549,
+      "class_name": "envelope",
+      "source": "549/ILSVRC2012_val_00003352.JPEG",
+      "bytes": 64360,
+      "sha256": "75fe8103d6a978e3ab195c4a4528dc6315618600e800c94ef870044593b0dc54"
+    },
+    {
+      "file": "0111_ILSVRC2012_val_00001882.png",
+      "class_index": 111,
+      "class_name": "nematode, nematode worm, roundworm",
+      "source": "111/ILSVRC2012_val_00001882.JPEG",
+      "bytes": 61084,
+      "sha256": "5c3faf0750e83f5f002ea7a4f10d5807cd58ad80df958ed710836c2aaf33ffdd"
+    },
+    {
+      "file": "0001_ILSVRC2012_val_00000262.png",
+      "class_index": 1,
+      "class_name": "goldfish, Carassius auratus",
+      "source": "1/ILSVRC2012_val_00000262.JPEG",
+      "bytes": 78242,
+      "sha256": "fec9aca35151d8f26d07986557753bc07f771a391e3194bb49a7c7edd782a6b7"
+    },
+    {
+      "file": "0895_ILSVRC2012_val_00003293.png",
+      "class_index": 895,
+      "class_name": "warplane, military plane",
+      "source": "895/ILSVRC2012_val_00003293.JPEG",
+      "bytes": 70366,
+      "sha256": "1258e0c53916934c77daad237537eafe20b7c7d1d33cedce4d165562cd648bcd"
+    },
+    {
+      "file": "0033_ILSVRC2012_val_00000404.png",
+      "class_index": 33,
+      "class_name": "loggerhead, loggerhead turtle, Caretta caretta",
+      "source": "33/ILSVRC2012_val_00000404.JPEG",
+      "bytes": 111403,
+      "sha256": "19943e314c744792c80789287be9d585dec61833d521c5311dbf4221a2c6e9c8"
+    },
+    {
+      "file": "0822_ILSVRC2012_val_00000842.png",
+      "class_index": 822,
+      "class_name": "steel drum",
+      "source": "822/ILSVRC2012_val_00000842.JPEG",
+      "bytes": 86726,
+      "sha256": "4876adf0f6da84094cd3ccde6b6933b8cdeb0baab6a63b972e069d968dcdfdef"
+    },
+    {
+      "file": "0049_ILSVRC2012_val_00001573.png",
+      "class_index": 49,
+      "class_name": "African crocodile, Nile crocodile, Crocodylus niloticus",
+      "source": "49/ILSVRC2012_val_00001573.JPEG",
+      "bytes": 108663,
+      "sha256": "c0f0ccceeb08ab4d22cd6330174e52882af1ed13affb0f16262e3e3c0447d505"
+    },
+    {
+      "file": "0868_ILSVRC2012_val_00000526.png",
+      "class_index": 868,
+      "class_name": "tray",
+      "source": "868/ILSVRC2012_val_00000526.JPEG",
+      "bytes": 98662,
+      "sha256": "5a0b88850b24e5af715753f3857c1230dbd580c34282f8f78ab994d049bcecb8"
+    },
+    {
+      "file": "0606_ILSVRC2012_val_00000208.png",
+      "class_index": 606,
+      "class_name": "iron, smoothing iron",
+      "source": "606/ILSVRC2012_val_00000208.JPEG",
+      "bytes": 27964,
+      "sha256": "c46bb3e79b6ad9c39551860ed4b7acb228ea89cb1df23585a6a976fb336389b3"
+    },
+    {
+      "file": "0561_ILSVRC2012_val_00002612.png",
+      "class_index": 561,
+      "class_name": "forklift",
+      "source": "561/ILSVRC2012_val_00002612.JPEG",
+      "bytes": 92981,
+      "sha256": "42e90c33cb3df3c24f6efa022297774f06f83dfdbb0346ca777157d60b88bc7c"
+    },
+    {
+      "file": "0534_ILSVRC2012_val_00000698.png",
+      "class_index": 534,
+      "class_name": "dishwasher, dish washer, dishwashing machine",
+      "source": "534/ILSVRC2012_val_00000698.JPEG",
+      "bytes": 88591,
+      "sha256": "aa518c772d76890abbfeb9d17f79cbff3752612857413ce6522312a9ff0670d2"
+    },
+    {
+      "file": "0843_ILSVRC2012_val_00001086.png",
+      "class_index": 843,
+      "class_name": "swing",
+      "source": "843/ILSVRC2012_val_00001086.JPEG",
+      "bytes": 90725,
+      "sha256": "afc417404eeaa3b8c60c815d81d98b9a4d255f5fb4851e7620e353d55cd25969"
+    },
+    {
+      "file": "0846_ILSVRC2012_val_00000026.png",
+      "class_index": 846,
+      "class_name": "table lamp",
+      "source": "846/ILSVRC2012_val_00000026.JPEG",
+      "bytes": 72152,
+      "sha256": "6acf6c71820e37b2261b6e156f7cba3da217c955710a77b76fcc9dd384bb7d92"
+    },
+    {
+      "file": "0502_ILSVRC2012_val_00001500.png",
+      "class_index": 502,
+      "class_name": "clog, geta, patten, sabot",
+      "source": "502/ILSVRC2012_val_00001500.JPEG",
+      "bytes": 45948,
+      "sha256": "4565db6624a55f9251258cfcdd664e086fad737cb76fcfd9b2cb5df92f52da63"
+    },
+    {
+      "file": "0092_ILSVRC2012_val_00000051.png",
+      "class_index": 92,
+      "class_name": "bee eater",
+      "source": "92/ILSVRC2012_val_00000051.JPEG",
+      "bytes": 78266,
+      "sha256": "4ebcd2468fb80f158c834080638b53243b9b961b85ab8cbe09a5c9ea9de9f07d"
+    },
+    {
+      "file": "0735_ILSVRC2012_val_00005176.png",
+      "class_index": 735,
+      "class_name": "poncho",
+      "source": "735/ILSVRC2012_val_00005176.JPEG",
+      "bytes": 107291,
+      "sha256": "2f16b9bcbd3b36aceb38d43e1f4aef4649f61a38a531d1d05409451ee99261b8"
+    },
+    {
+      "file": "0611_ILSVRC2012_val_00000607.png",
+      "class_index": 611,
+      "class_name": "jigsaw puzzle",
+      "source": "611/ILSVRC2012_val_00000607.JPEG",
+      "bytes": 96990,
+      "sha256": "273a299025934ab28e1baea1c6949cee836623556a215acf18353edd1a9496d1"
+    },
+    {
+      "file": "0985_ILSVRC2012_val_00004514.png",
+      "class_index": 985,
+      "class_name": "daisy",
+      "source": "985/ILSVRC2012_val_00004514.JPEG",
+      "bytes": 57707,
+      "sha256": "a7ab903bd3e3e90a1152587f718851f5c606db4b35844d1d3902d7d42d9798c9"
+    },
+    {
+      "file": "0727_ILSVRC2012_val_00000024.png",
+      "class_index": 727,
+      "class_name": "planetarium",
+      "source": "727/ILSVRC2012_val_00000024.JPEG",
+      "bytes": 87951,
+      "sha256": "02b5ed5f14a5a526c8f9b73753f44fe5ca4152d493f11c783b8cfd1f42027731"
+    },
+    {
+      "file": "0456_ILSVRC2012_val_00001542.png",
+      "class_index": 456,
+      "class_name": "bow",
+      "source": "456/ILSVRC2012_val_00001542.JPEG",
+      "bytes": 95143,
+      "sha256": "9b469dc1e104a87108914c8fce4c73ded5e2ec10c68f2addab0eacd005b12169"
+    },
+    {
+      "file": "0209_ILSVRC2012_val_00000668.png",
+      "class_index": 209,
+      "class_name": "Chesapeake Bay retriever",
+      "source": "209/ILSVRC2012_val_00000668.JPEG",
+      "bytes": 90231,
+      "sha256": "de8d2609001bdb7129263c920ba3d8a93708237eb59347aa17e7f331814e9991"
+    },
+    {
+      "file": "0694_ILSVRC2012_val_00000264.png",
+      "class_index": 694,
+      "class_name": "paddlewheel, paddle wheel",
+      "source": "694/ILSVRC2012_val_00000264.JPEG",
+      "bytes": 98532,
+      "sha256": "904b4854e91feb0455767ca48adff482193dc5250b1ed123a8b4ed798b31d7dc"
+    },
+    {
+      "file": "0870_ILSVRC2012_val_00000069.png",
+      "class_index": 870,
+      "class_name": "tricycle, trike, velocipede",
+      "source": "870/ILSVRC2012_val_00000069.JPEG",
+      "bytes": 87022,
+      "sha256": "7013de006b37a72d46f2e33f7fc80b423095e28b7883b9af392be8c53c2094a2"
+    },
+    {
+      "file": "0239_ILSVRC2012_val_00002708.png",
+      "class_index": 239,
+      "class_name": "Bernese mountain dog",
+      "source": "239/ILSVRC2012_val_00002708.JPEG",
+      "bytes": 106284,
+      "sha256": "5b2a8a600d1f2ca77d60dc99049c6b1c7e9da413a052bec6f4ad6f8891563e36"
+    },
+    {
+      "file": "0295_ILSVRC2012_val_00000865.png",
+      "class_index": 295,
+      "class_name": "American black bear, black bear, Ursus americanus, Euarctos americanus",
+      "source": "295/ILSVRC2012_val_00000865.JPEG",
+      "bytes": 104723,
+      "sha256": "1db00075efc46fcdd9be1b632f8432afaa8a386e94d608f0e424cd46b22b347e"
+    },
+    {
+      "file": "0243_ILSVRC2012_val_00000975.png",
+      "class_index": 243,
+      "class_name": "bull mastiff",
+      "source": "243/ILSVRC2012_val_00000975.JPEG",
+      "bytes": 91784,
+      "sha256": "25bda01ab7fbb7c59c9f562173e1bdfa48e388a7c116f56d5e008a88d2e618df"
+    },
+    {
+      "file": "0227_ILSVRC2012_val_00000113.png",
+      "class_index": 227,
+      "class_name": "kelpie",
+      "source": "227/ILSVRC2012_val_00000113.JPEG",
+      "bytes": 91157,
+      "sha256": "5bcbee41675e1c331f7a1f021a58c363dc92fa15988720ada53e79244a8bec4c"
+    },
+    {
+      "file": "0667_ILSVRC2012_val_00004558.png",
+      "class_index": 667,
+      "class_name": "mortarboard",
+      "source": "667/ILSVRC2012_val_00004558.JPEG",
+      "bytes": 74647,
+      "sha256": "6c246e810e79c39cbdb74a0d52b5a0d821c32f593b0b3aac735ee152268b356e"
+    },
+    {
+      "file": "0964_ILSVRC2012_val_00000491.png",
+      "class_index": 964,
+      "class_name": "potpie",
+      "source": "964/ILSVRC2012_val_00000491.JPEG",
+      "bytes": 89209,
+      "sha256": "d3ef26bcceade1b5bd475b855747231662c2374051d6b1555f1725e4143efa44"
+    },
+    {
+      "file": "0318_ILSVRC2012_val_00001466.png",
+      "class_index": 318,
+      "class_name": "lacewing, lacewing fly",
+      "source": "318/ILSVRC2012_val_00001466.JPEG",
+      "bytes": 99988,
+      "sha256": "f02dadacd310773bf1f71179dadcdc03a13cefa58d1acec9427dfecdbe9297c2"
+    },
+    {
+      "file": "0200_ILSVRC2012_val_00000802.png",
+      "class_index": 200,
+      "class_name": "Tibetan terrier, chrysanthemum dog",
+      "source": "200/ILSVRC2012_val_00000802.JPEG",
+      "bytes": 87274,
+      "sha256": "f4cfd9d355bdf5289f1381933a60449c3086333667578f81800a8d3b16dfbb53"
+    },
+    {
+      "file": "0677_ILSVRC2012_val_00000649.png",
+      "class_index": 677,
+      "class_name": "nail",
+      "source": "677/ILSVRC2012_val_00000649.JPEG",
+      "bytes": 63805,
+      "sha256": "465214ad57a9c538d364603492197bda39470880b86151c4033d0723b8e93181"
+    },
+    {
+      "file": "0648_ILSVRC2012_val_00003358.png",
+      "class_index": 648,
+      "class_name": "medicine chest, medicine cabinet",
+      "source": "648/ILSVRC2012_val_00003358.JPEG",
+      "bytes": 63176,
+      "sha256": "50cf315d56a7ff20af1912f9007f2d1ba7206d2e9bf11761f5d48e15bc7e5b8d"
+    },
+    {
+      "file": "0017_ILSVRC2012_val_00000880.png",
+      "class_index": 17,
+      "class_name": "jay",
+      "source": "17/ILSVRC2012_val_00000880.JPEG",
+      "bytes": 93463,
+      "sha256": "b9997abf5463c32021b73fc33a83d9df78fbf85ef89d5497174bab9e33807916"
+    },
+    {
+      "file": "0507_ILSVRC2012_val_00004971.png",
+      "class_index": 507,
+      "class_name": "combination lock",
+      "source": "507/ILSVRC2012_val_00004971.JPEG",
+      "bytes": 79359,
+      "sha256": "ac71b396dc4cde487a331278682a4eed5c1bea12a49bce5ddc6e60bc00cca7d5"
+    },
+    {
+      "file": "0553_ILSVRC2012_val_00004314.png",
+      "class_index": 553,
+      "class_name": "file, file cabinet, filing cabinet",
+      "source": "553/ILSVRC2012_val_00004314.JPEG",
+      "bytes": 75133,
+      "sha256": "21cce3e6e9d0dab9838fee2815885dcf83c243bdf206da2f5453294b3127e38c"
+    },
+    {
+      "file": "0319_ILSVRC2012_val_00000418.png",
+      "class_index": 319,
+      "class_name": "dragonfly, darning needle, devil's darning needle, sewing needle, snake feeder, snake doctor, mosquito hawk, skeeter hawk",
+      "source": "319/ILSVRC2012_val_00000418.JPEG",
+      "bytes": 49976,
+      "sha256": "0bb52b5c0865cb05712894ca2dd80e1c8703af54986e39b8c7df06e3b84256c4"
+    },
+    {
+      "file": "0946_ILSVRC2012_val_00000881.png",
+      "class_index": 946,
+      "class_name": "cardoon",
+      "source": "946/ILSVRC2012_val_00000881.JPEG",
+      "bytes": 110337,
+      "sha256": "20ef2872e351c46ef6889f3f2b63aa8b2a6bb2bbbbb789451745405575e901ce"
+    },
+    {
+      "file": "0909_ILSVRC2012_val_00003240.png",
+      "class_index": 909,
+      "class_name": "wok",
+      "source": "909/ILSVRC2012_val_00003240.JPEG",
+      "bytes": 79630,
+      "sha256": "015a0c714c96dc79f015d1d2116488743d1f966e2ad9e53bb8b3c155650e6911"
+    },
+    {
+      "file": "0246_ILSVRC2012_val_00001408.png",
+      "class_index": 246,
+      "class_name": "Great Dane",
+      "source": "246/ILSVRC2012_val_00001408.JPEG",
+      "bytes": 81289,
+      "sha256": "9c4366c5c04c842eb74a60c95d7360edd982bf594290a27030248b2e09dec2a9"
+    },
+    {
+      "file": "0463_ILSVRC2012_val_00000336.png",
+      "class_index": 463,
+      "class_name": "bucket, pail",
+      "source": "463/ILSVRC2012_val_00000336.JPEG",
+      "bytes": 57285,
+      "sha256": "070abcad6dff4488be6a845c312296e939e22a62a7a792473d8d2d83588d113a"
+    },
+    {
+      "file": "0571_ILSVRC2012_val_00000732.png",
+      "class_index": 571,
+      "class_name": "gas pump, gasoline pump, petrol pump, island dispenser",
+      "source": "571/ILSVRC2012_val_00000732.JPEG",
+      "bytes": 78176,
+      "sha256": "2373c6e16b27d3fd3e7815416b681ed9f458165c3095c6bd3f82f2836f4e3974"
+    },
+    {
+      "file": "0761_ILSVRC2012_val_00001838.png",
+      "class_index": 761,
+      "class_name": "remote control, remote",
+      "source": "761/ILSVRC2012_val_00001838.JPEG",
+      "bytes": 85104,
+      "sha256": "c21275d11fdc940f0b049a56ca642dd091f9d500930119521d2a0238a18b9d03"
+    },
+    {
+      "file": "0498_ILSVRC2012_val_00000086.png",
+      "class_index": 498,
+      "class_name": "cinema, movie theater, movie theatre, movie house, picture palace",
+      "source": "498/ILSVRC2012_val_00000086.JPEG",
+      "bytes": 75450,
+      "sha256": "663d880b3e065998f0a5157923f2a26c5eedf7a67acb3257797b0c5c361f439c"
+    },
+    {
+      "file": "0321_ILSVRC2012_val_00001215.png",
+      "class_index": 321,
+      "class_name": "admiral",
+      "source": "321/ILSVRC2012_val_00001215.JPEG",
+      "bytes": 119947,
+      "sha256": "1cdcff1747101826f51bb3aa4f109caaaf9b3534e45a8eaab043efe96f56a3e5"
+    },
+    {
+      "file": "0644_ILSVRC2012_val_00000259.png",
+      "class_index": 644,
+      "class_name": "matchstick",
+      "source": "644/ILSVRC2012_val_00000259.JPEG",
+      "bytes": 61942,
+      "sha256": "dc6df1a913f777e17d8509b142ed87ce091d6bb6494c41b9f9dd4866a78a2461"
+    },
+    {
+      "file": "0448_ILSVRC2012_val_00001630.png",
+      "class_index": 448,
+      "class_name": "birdhouse",
+      "source": "448/ILSVRC2012_val_00001630.JPEG",
+      "bytes": 99709,
+      "sha256": "7c7b4c5c172163059f56928e26fc959c1a54b9c9cd6ec1af23c3ec1cd5d764de"
+    },
+    {
+      "file": "0140_ILSVRC2012_val_00000177.png",
+      "class_index": 140,
+      "class_name": "red-backed sandpiper, dunlin, Erolia alpina",
+      "source": "140/ILSVRC2012_val_00000177.JPEG",
+      "bytes": 93463,
+      "sha256": "7343b62a1d90bdba37210cb2b12628027b42fb3649df6cefd9c86c801f6c3947"
+    },
+    {
+      "file": "0598_ILSVRC2012_val_00000410.png",
+      "class_index": 598,
+      "class_name": "home theater, home theatre",
+      "source": "598/ILSVRC2012_val_00000410.JPEG",
+      "bytes": 71181,
+      "sha256": "b707e112f121d1bbd789ca8bad155fdb54a46a851cdaf99032514ea64a5a9be3"
+    },
+    {
+      "file": "0742_ILSVRC2012_val_00005278.png",
+      "class_index": 742,
+      "class_name": "printer",
+      "source": "742/ILSVRC2012_val_00005278.JPEG",
+      "bytes": 26694,
+      "sha256": "7ada4ba870040c6242d283790c809f81b28d931719a43724523756c88d31e2ec"
+    },
+    {
+      "file": "0900_ILSVRC2012_val_00000586.png",
+      "class_index": 900,
+      "class_name": "water tower",
+      "source": "900/ILSVRC2012_val_00000586.JPEG",
+      "bytes": 65919,
+      "sha256": "c6dd4b741bd09ba70a82a455718f3077f67d2a3f16c2500bbf9d623f8c22b8d0"
+    },
+    {
+      "file": "0654_ILSVRC2012_val_00000314.png",
+      "class_index": 654,
+      "class_name": "minibus",
+      "source": "654/ILSVRC2012_val_00000314.JPEG",
+      "bytes": 87458,
+      "sha256": "36718dd5b1fc09aff920900201c7a6375b8d1260c872e73bc3e5e7961ee6dbc7"
+    },
+    {
+      "file": "0591_ILSVRC2012_val_00000054.png",
+      "class_index": 591,
+      "class_name": "handkerchief, hankie, hanky, hankey",
+      "source": "591/ILSVRC2012_val_00000054.JPEG",
+      "bytes": 87759,
+      "sha256": "c8273144750fd78f136102683cb22ff099029d52e0554fb5999a0142a543f744"
+    },
+    {
+      "file": "0815_ILSVRC2012_val_00002128.png",
+      "class_index": 815,
+      "class_name": "spider web, spider's web",
+      "source": "815/ILSVRC2012_val_00002128.JPEG",
+      "bytes": 75020,
+      "sha256": "1bcab40e317689468fcc6b5ac0b49d424d313db7f53c0b135d214bb8b6f0800e"
+    },
+    {
+      "file": "0494_ILSVRC2012_val_00003484.png",
+      "class_index": 494,
+      "class_name": "chime, bell, gong",
+      "source": "494/ILSVRC2012_val_00003484.JPEG",
+      "bytes": 68399,
+      "sha256": "a740105770d2a9128a56d8dbd9bfc5a168facdb7ee80f42211a4c082be8bf714"
+    },
+    {
+      "file": "0981_ILSVRC2012_val_00002751.png",
+      "class_index": 981,
+      "class_name": "ballplayer, baseball player",
+      "source": "981/ILSVRC2012_val_00002751.JPEG",
+      "bytes": 83643,
+      "sha256": "1186bc28f28d755aef310962f7329d46731740820c1bb0727da4d2ab7531be83"
+    },
+    {
+      "file": "0178_ILSVRC2012_val_00001385.png",
+      "class_index": 178,
+      "class_name": "Weimaraner",
+      "source": "178/ILSVRC2012_val_00001385.JPEG",
+      "bytes": 91396,
+      "sha256": "ae051cb1cbc24705fe6591439fdb67f37df881e071a6f717bd8910617aa52cad"
+    },
+    {
+      "file": "0479_ILSVRC2012_val_00000905.png",
+      "class_index": 479,
+      "class_name": "car wheel",
+      "source": "479/ILSVRC2012_val_00000905.JPEG",
+      "bytes": 71787,
+      "sha256": "96465b2464bd963128ea6a817be12d1775fa1834ea33a87370f3ae0b8be68d59"
+    },
+    {
+      "file": "0636_ILSVRC2012_val_00000221.png",
+      "class_index": 636,
+      "class_name": "mailbag, postbag",
+      "source": "636/ILSVRC2012_val_00000221.JPEG",
+      "bytes": 81476,
+      "sha256": "d6ea9fd1d8f54cb8282fc2b3ae7517cb7011ebbbe337264244aa3ba3df230071"
+    },
+    {
+      "file": "0920_ILSVRC2012_val_00000274.png",
+      "class_index": 920,
+      "class_name": "traffic light, traffic signal, stoplight",
+      "source": "920/ILSVRC2012_val_00000274.JPEG",
+      "bytes": 78757,
+      "sha256": "5c5cfc27df8be8d4e3b1690331628a344cc6150ff148d549bf24d5f643d1c05c"
+    },
+    {
+      "file": "0731_ILSVRC2012_val_00004123.png",
+      "class_index": 731,
+      "class_name": "plunger, plumber's helper",
+      "source": "731/ILSVRC2012_val_00004123.JPEG",
+      "bytes": 87770,
+      "sha256": "3e433289072144c71fa05274a0f44517103129755f4659887e48adc7f3307364"
+    },
+    {
+      "file": "0565_ILSVRC2012_val_00000047.png",
+      "class_index": 565,
+      "class_name": "freight car",
+      "source": "565/ILSVRC2012_val_00000047.JPEG",
+      "bytes": 85390,
+      "sha256": "a79fc9971f616fa3bc05120ea90b9a8b3f3afe95fb2fe604187849b629cf642a"
+    },
+    {
+      "file": "0664_ILSVRC2012_val_00002089.png",
+      "class_index": 664,
+      "class_name": "monitor",
+      "source": "664/ILSVRC2012_val_00002089.JPEG",
+      "bytes": 78894,
+      "sha256": "7ea7bdeae9c507b6d21713dbb6c82ed29701c96fb243a21eead5a9a88a0a8e06"
+    },
+    {
+      "file": "0213_ILSVRC2012_val_00003516.png",
+      "class_index": 213,
+      "class_name": "Irish setter, red setter",
+      "source": "213/ILSVRC2012_val_00003516.JPEG",
+      "bytes": 98435,
+      "sha256": "aa287fcfed1eaedd7911f6a94a8655226063886197792f3dfe5277121063f8c4"
+    },
+    {
+      "file": "0923_ILSVRC2012_val_00002851.png",
+      "class_index": 923,
+      "class_name": "plate",
+      "source": "923/ILSVRC2012_val_00002851.JPEG",
+      "bytes": 84551,
+      "sha256": "f782211268b090a119c475dff9ee854226154d1095116e594b7f385c5603f50f"
+    },
+    {
+      "file": "0142_ILSVRC2012_val_00000098.png",
+      "class_index": 142,
+      "class_name": "dowitcher",
+      "source": "142/ILSVRC2012_val_00000098.JPEG",
+      "bytes": 86262,
+      "sha256": "cfc5674c5b961cc06b36e5d9095f2b757607091294158d5d361596894bf4770d"
+    },
+    {
+      "file": "0707_ILSVRC2012_val_00000335.png",
+      "class_index": 707,
+      "class_name": "pay-phone, pay-station",
+      "source": "707/ILSVRC2012_val_00000335.JPEG",
+      "bytes": 103089,
+      "sha256": "761bcd01893bb6cb970e86faa2861654172ea67c12b94454eca2c91a12e8ba3f"
+    },
+    {
+      "file": "0361_ILSVRC2012_val_00000181.png",
+      "class_index": 361,
+      "class_name": "skunk, polecat, wood pussy",
+      "source": "361/ILSVRC2012_val_00000181.JPEG",
+      "bytes": 94675,
+      "sha256": "80a289ac564eff0319f091914bcaf38b1292b28f8370823823503e201d01d975"
+    },
+    {
+      "file": "0177_ILSVRC2012_val_00000405.png",
+      "class_index": 177,
+      "class_name": "Scottish deerhound, deerhound",
+      "source": "177/ILSVRC2012_val_00000405.JPEG",
+      "bytes": 109172,
+      "sha256": "f25a67f90c9309b90af1e63d309dcc22658d0e083d94f2a9cea10ebd1d22f154"
+    },
+    {
+      "file": "0513_ILSVRC2012_val_00002171.png",
+      "class_index": 513,
+      "class_name": "cornet, horn, trumpet, trump",
+      "source": "513/ILSVRC2012_val_00002171.JPEG",
+      "bytes": 101384,
+      "sha256": "99d6d483be31eaa7e8704a8d449867f80c3fe5b26ba620791b9be9f158eb27de"
+    },
+    {
+      "file": "0989_ILSVRC2012_val_00000251.png",
+      "class_index": 989,
+      "class_name": "hip, rose hip, rosehip",
+      "source": "989/ILSVRC2012_val_00000251.JPEG",
+      "bytes": 95415,
+      "sha256": "1b3eb03fcf7f0158e78569ff87bbc2f3e2ed47c72511a048c83dcdfc7dcbe340"
+    },
+    {
+      "file": "0264_ILSVRC2012_val_00000997.png",
+      "class_index": 264,
+      "class_name": "Cardigan, Cardigan Welsh corgi",
+      "source": "264/ILSVRC2012_val_00000997.JPEG",
+      "bytes": 98927,
+      "sha256": "be5ea95940d34f3fd8a604e6b24cbb30624fbff4b49923badb6a42438467b44a"
+    },
+    {
+      "file": "0380_ILSVRC2012_val_00000340.png",
+      "class_index": 380,
+      "class_name": "titi, titi monkey",
+      "source": "380/ILSVRC2012_val_00000340.JPEG",
+      "bytes": 98667,
+      "sha256": "8490c157a0ebd28cb503b9f3ddba9fe80ad88ae36e41984744ca5e01495990b2"
+    },
+    {
+      "file": "0994_ILSVRC2012_val_00000058.png",
+      "class_index": 994,
+      "class_name": "stinkhorn, carrion fungus",
+      "source": "994/ILSVRC2012_val_00000058.JPEG",
+      "bytes": 113763,
+      "sha256": "a97c828616cc887475e1d3086932c80b88e5b09c4e49feb24ab3f5018db3000a"
+    },
+    {
+      "file": "0746_ILSVRC2012_val_00000454.png",
+      "class_index": 746,
+      "class_name": "puck, hockey puck",
+      "source": "746/ILSVRC2012_val_00000454.JPEG",
+      "bytes": 79682,
+      "sha256": "08b4e7aff6c16483ce86bc8dea95b57b21727efb294e3069354d0ec4ebfafc86"
+    },
+    {
+      "file": "0370_ILSVRC2012_val_00000013.png",
+      "class_index": 370,
+      "class_name": "guenon, guenon monkey",
+      "source": "370/ILSVRC2012_val_00000013.JPEG",
+      "bytes": 82347,
+      "sha256": "10d082550a4c7440e1722cf61c80edbcd1acca46c3fb46798d2e8cc7019a5b44"
+    },
+    {
+      "file": "0881_ILSVRC2012_val_00000284.png",
+      "class_index": 881,
+      "class_name": "upright, upright piano",
+      "source": "881/ILSVRC2012_val_00000284.JPEG",
+      "bytes": 41397,
+      "sha256": "2c9310e4a0d92e3071c6c51ac778f5a1a9729fcc896a10fc1776c78fc78f4b7f"
+    },
+    {
+      "file": "0966_ILSVRC2012_val_00001575.png",
+      "class_index": 966,
+      "class_name": "red wine",
+      "source": "966/ILSVRC2012_val_00001575.JPEG",
+      "bytes": 20127,
+      "sha256": "eabce1e63fe5d60dba057089a0372674bf7caa096181362bc9d2a36b2514d610"
+    },
+    {
+      "file": "0788_ILSVRC2012_val_00000083.png",
+      "class_index": 788,
+      "class_name": "shoe shop, shoe-shop, shoe store",
+      "source": "788/ILSVRC2012_val_00000083.JPEG",
+      "bytes": 83654,
+      "sha256": "c4ed8a1a0fcb68bac19f38a360df37d1e1d76abd0e2b8598deaf12623b452e1b"
+    },
+    {
+      "file": "0768_ILSVRC2012_val_00001497.png",
+      "class_index": 768,
+      "class_name": "rugby ball",
+      "source": "768/ILSVRC2012_val_00001497.JPEG",
+      "bytes": 79517,
+      "sha256": "beaf092387879fd43b9195ab2d4dc952603fef032a8ff84ea7de2e02e1c32f62"
+    },
+    {
+      "file": "0570_ILSVRC2012_val_00005055.png",
+      "class_index": 570,
+      "class_name": "gasmask, respirator, gas helmet",
+      "source": "570/ILSVRC2012_val_00005055.JPEG",
+      "bytes": 87247,
+      "sha256": "46c36105a3336f4c9dec54991d31a7f4fbbf1c96ea214abbebb4ed7d84b14a3c"
+    },
+    {
+      "file": "0369_ILSVRC2012_val_00002084.png",
+      "class_index": 369,
+      "class_name": "siamang, Hylobates syndactylus, Symphalangus syndactylus",
+      "source": "369/ILSVRC2012_val_00002084.JPEG",
+      "bytes": 92108,
+      "sha256": "01054238742e8a0052bc91acad32130d65d4414c450e96b39ed42ec93cb2a720"
+    },
+    {
+      "file": "0445_ILSVRC2012_val_00004709.png",
+      "class_index": 445,
+      "class_name": "bikini, two-piece",
+      "source": "445/ILSVRC2012_val_00004709.JPEG",
+      "bytes": 71480,
+      "sha256": "bb036ca7adb1f0a76dc0bd733b6daa1c7cf1eb405c8db09ecf66f13eff2de82f"
+    },
+    {
+      "file": "0420_ILSVRC2012_val_00000388.png",
+      "class_index": 420,
+      "class_name": "banjo",
+      "source": "420/ILSVRC2012_val_00000388.JPEG",
+      "bytes": 97581,
+      "sha256": "ac04749609e064cdec753675d5a2b5684b5dfbad8c0e9b0b370e4828b3d7616d"
+    },
+    {
+      "file": "0607_ILSVRC2012_val_00000308.png",
+      "class_index": 607,
+      "class_name": "jack-o'-lantern",
+      "source": "607/ILSVRC2012_val_00000308.JPEG",
+      "bytes": 48314,
+      "sha256": "e1b0ceb6370ea26b09e03714688b4a694302bc347faac858e3f6b2c6a754b8ae"
+    },
+    {
+      "file": "0324_ILSVRC2012_val_00000031.png",
+      "class_index": 324,
+      "class_name": "cabbage butterfly",
+      "source": "324/ILSVRC2012_val_00000031.JPEG",
+      "bytes": 83119,
+      "sha256": "7bdeb1091fbbe971dcc2f900500e69a5ed826aa3c6d28f53864e93166308db59"
+    },
+    {
+      "file": "0043_ILSVRC2012_val_00000297.png",
+      "class_index": 43,
+      "class_name": "frilled lizard, Chlamydosaurus kingi",
+      "source": "43/ILSVRC2012_val_00000297.JPEG",
+      "bytes": 101909,
+      "sha256": "f8ebeb567e5eff0fbbce21d859a7e64fa05bdc3748df89a5f00bf08f08567a8a"
+    },
+    {
+      "file": "0444_ILSVRC2012_val_00001012.png",
+      "class_index": 444,
+      "class_name": "bicycle-built-for-two, tandem bicycle, tandem",
+      "source": "444/ILSVRC2012_val_00001012.JPEG",
+      "bytes": 90357,
+      "sha256": "cbb8d041b689ea418426ce6043e391eb696e6f0621858c62c0eaf9b47cc0a349"
+    },
+    {
+      "file": "0959_ILSVRC2012_val_00000116.png",
+      "class_index": 959,
+      "class_name": "carbonara",
+      "source": "959/ILSVRC2012_val_00000116.JPEG",
+      "bytes": 81162,
+      "sha256": "d28b77e3d416aa120319b9dc2ca62025ff2ebee7e59b1dd7f7e620dc32e804b5"
+    },
+    {
+      "file": "0054_ILSVRC2012_val_00004280.png",
+      "class_index": 54,
+      "class_name": "hognose snake, puff adder, sand viper",
+      "source": "54/ILSVRC2012_val_00004280.JPEG",
+      "bytes": 105916,
+      "sha256": "b8a8d07b914299624acde0bbab15e2abef72bb54267f0bc77a1dd2f0bf483dcc"
+    },
+    {
+      "file": "0091_ILSVRC2012_val_00000370.png",
+      "class_index": 91,
+      "class_name": "coucal",
+      "source": "91/ILSVRC2012_val_00000370.JPEG",
+      "bytes": 74669,
+      "sha256": "789c1d1ca7eb80e1ba6e26ebc024d7a3d56f536ac5c138c857586e6005d3b2a1"
+    },
+    {
+      "file": "0307_ILSVRC2012_val_00001570.png",
+      "class_index": 307,
+      "class_name": "weevil",
+      "source": "307/ILSVRC2012_val_00001570.JPEG",
+      "bytes": 74418,
+      "sha256": "d7c5b5b98591779fa47b7a51a84097c65764ac3d901c2cd85a89b78160a12acb"
+    },
+    {
+      "file": "0368_ILSVRC2012_val_00003388.png",
+      "class_index": 368,
+      "class_name": "gibbon, Hylobates lar",
+      "source": "368/ILSVRC2012_val_00003388.JPEG",
+      "bytes": 81875,
+      "sha256": "337d912a8c3ccc912d0685d641db25c22e0984ff11cc824f1cd7975e6bf6f38f"
+    },
+    {
+      "file": "0633_ILSVRC2012_val_00002045.png",
+      "class_index": 633,
+      "class_name": "loupe, jeweler's loupe",
+      "source": "633/ILSVRC2012_val_00002045.JPEG",
+      "bytes": 46801,
+      "sha256": "6a25cd289dcdb64c7cfd13e3d0b0e5fcf541bf207844f877441a22a8b098c69d"
+    },
+    {
+      "file": "0736_ILSVRC2012_val_00002385.png",
+      "class_index": 736,
+      "class_name": "pool table, billiard table, snooker table",
+      "source": "736/ILSVRC2012_val_00002385.JPEG",
+      "bytes": 77401,
+      "sha256": "29c8990afa9b408a43e0593898770703e200e38461982c76fc417539587a2e18"
+    },
+    {
+      "file": "0230_ILSVRC2012_val_00000003.png",
+      "class_index": 230,
+      "class_name": "Shetland sheepdog, Shetland sheep dog, Shetland",
+      "source": "230/ILSVRC2012_val_00000003.JPEG",
+      "bytes": 88136,
+      "sha256": "da33bd04b25873e1227ce68b09ae83881a26102f2b3949bd50930ac8a9f8186d"
+    },
+    {
+      "file": "0470_ILSVRC2012_val_00003486.png",
+      "class_index": 470,
+      "class_name": "candle, taper, wax light",
+      "source": "470/ILSVRC2012_val_00003486.JPEG",
+      "bytes": 63566,
+      "sha256": "c0f8e23e6c9606ba123ad70f91bde2b1a2f72ae41737df80bb015030ad5dc598"
+    },
+    {
+      "file": "0962_ILSVRC2012_val_00001115.png",
+      "class_index": 962,
+      "class_name": "meat loaf, meatloaf",
+      "source": "962/ILSVRC2012_val_00001115.JPEG",
+      "bytes": 107289,
+      "sha256": "e87d5bd765ca48c85793f747aa00ddbf960c160ce472e68579675b09eb8e0a20"
+    }
+  ]
+}

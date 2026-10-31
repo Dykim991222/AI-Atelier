@@ -1,0 +1,14 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+
+**/data/**/*.png
+**/outputs/
+
+*.pth
+*.pt
+*.onnx
+*.zip
